@@ -60,4 +60,28 @@ public class MarsRover {
             setDirection(compassPoints[index]);
         return getDirection();
     }
+
+    public String rotateLeft() {
+        int tempIndex = 0;
+        int index = 0;
+
+        for (int i = 0; i < compassPoints.length; i++) {
+            if(direction.equals(compassPoints[i])) {
+                tempIndex = i;
+            }
+        }
+        if(tempIndex == 0) {
+            int checkIndex = 3;
+            index = checkIndex;
+        } else {
+            int checkIndex = tempIndex - 1;
+            if (checkIndex < compassPoints.length) {
+                index = checkIndex;
+            } else {
+                index = 3;
+            }
+        }
+        setDirection(compassPoints[index]);
+        return getDirection();
+    }
 }

@@ -47,8 +47,26 @@ public class MarsRoverTest {
     }
 
     @Test
-    public void canRotate180Degrees() {
+    public void canRotate180DegreesToTheRight() {
         marsRover.rotateRight();
         assertEquals("South", marsRover.rotateRight());
+    }
+
+    @Test
+    public void canRotateLeftFromNorth() {
+        assertEquals("West", marsRover.rotateLeft());
+    }
+
+    @Test
+    public void canRotateLeftFromWest() {
+        marsRover = new MarsRover("South", 0, 0);
+        assertEquals("East", marsRover.rotateLeft());
+    }
+
+    @Test
+    public void canRotate270DegreesToTheLeft() {
+        marsRover.rotateLeft();
+        marsRover.rotateLeft();
+        assertEquals("East", marsRover.rotateLeft());
     }
 }

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="363b9980-458a-423e-a5fb-423766e3e7b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MarsRover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRoverTest.java" afterDir="false" />
     </list>
@@ -47,14 +45,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MarsRoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="331">
+              <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#238#239#0" expanded="true" />
                 <element signature="e#294#295#0" expanded="true" />
                 <element signature="e#709#710#0" expanded="true" />
                 <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
+                <element signature="e#1533#1534#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="286">
+              <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
               <folding>
                 <element signature="e#133#134#0" expanded="true" />
                 <element signature="e#165#166#0" expanded="true" />
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/test/java/DirectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Direction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MarsRover.java" />
         <option value="$PROJECT_DIR$/src/test/java/MarsRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MarsRover.java" />
       </list>
     </option>
   </component>
@@ -217,7 +217,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554381387784" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554383663047" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -248,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverTest">
+  <component name="RunManager" selected="JUnit.MarsRoverTest.canRotate270DegreesToTheLeft">
     <configuration name="MarsRoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marsrover" />
       <option name="PACKAGE_NAME" value="" />
@@ -258,31 +258,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverTest.canRotate180Degrees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarsRoverTest.canRotate270DegreesToTheLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marsrover" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MarsRoverTest" />
-      <option name="METHOD_NAME" value="canRotate180Degrees" />
+      <option name="METHOD_NAME" value="canRotate270DegreesToTheLeft" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverTest.canRotateRightFromNorth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarsRoverTest.canRotateLeftFromNorth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marsrover" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MarsRoverTest" />
-      <option name="METHOD_NAME" value="canRotateRightFromNorth" />
+      <option name="METHOD_NAME" value="canRotateLeftFromNorth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverTest.canRotateRightFromSouth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarsRoverTest.canRotateLeftFromWest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marsrover" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MarsRoverTest" />
-      <option name="METHOD_NAME" value="canRotateRightFromSouth" />
+      <option name="METHOD_NAME" value="canRotateLeftFromWest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -300,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MarsRoverTest.canRotate270DegreesToTheLeft" />
+        <item itemvalue="JUnit.MarsRoverTest.canRotateLeftFromNorth" />
+        <item itemvalue="JUnit.MarsRoverTest.canRotateLeftFromWest" />
         <item itemvalue="JUnit.MarsRoverTest" />
         <item itemvalue="JUnit.MarsRoverTest.cannotRotateIfNotACompassPoint" />
-        <item itemvalue="JUnit.MarsRoverTest.canRotateRightFromSouth" />
-        <item itemvalue="JUnit.MarsRoverTest.canRotate180Degrees" />
-        <item itemvalue="JUnit.MarsRoverTest.canRotateRightFromNorth" />
       </list>
     </recent_temporary>
   </component>
@@ -322,35 +322,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MarsRoverTest_canRotateRightFromNorth - 2019.04.04 at 11h 54m 22s.xml">
-      <configuration name="MarsRoverTest.canRotateRightFromNorth" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_canRotateLeftFromWest - 2019.04.04 at 13h 44m 00s.xml">
+      <configuration name="MarsRoverTest.canRotateLeftFromWest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest_canRotate180Degrees - 2019.04.04 at 12h 10m 25s.xml">
-      <configuration name="MarsRoverTest.canRotate180Degrees" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_canRotateLeftFromNorth - 2019.04.04 at 13h 44m 29s.xml">
+      <configuration name="MarsRoverTest.canRotateLeftFromNorth" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2019.04.04 at 12h 10m 32s.xml">
-      <configuration name="MarsRoverTest" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_canRotateLeftFromWest - 2019.04.04 at 13h 44m 39s.xml">
+      <configuration name="MarsRoverTest.canRotateLeftFromWest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest_canRotateRightFromSouth - 2019.04.04 at 12h 13m 20s.xml">
-      <configuration name="MarsRoverTest.canRotateRightFromSouth" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_canRotateLeftFromWest - 2019.04.04 at 13h 45m 13s.xml">
+      <configuration name="MarsRoverTest.canRotateLeftFromWest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest_canRotateRightFromSouth - 2019.04.04 at 12h 17m 23s.xml">
-      <configuration name="MarsRoverTest.canRotateRightFromSouth" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_canRotateLeftFromWest - 2019.04.04 at 13h 46m 21s.xml">
+      <configuration name="MarsRoverTest.canRotateLeftFromWest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest_canRotateRightFromSouth - 2019.04.04 at 12h 18m 43s.xml">
-      <configuration name="MarsRoverTest.canRotateRightFromSouth" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_canRotate270DegreesToTheLeft - 2019.04.04 at 13h 47m 33s.xml">
+      <configuration name="MarsRoverTest.canRotate270DegreesToTheLeft" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2019.04.04 at 12h 18m 50s.xml">
-      <configuration name="MarsRoverTest" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_canRotateLeftFromWest - 2019.04.04 at 14h 04m 52s.xml">
+      <configuration name="MarsRoverTest.canRotateLeftFromWest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest_cannotRotateIfNotACompassPoint - 2019.04.04 at 13h 34m 42s.xml">
-      <configuration name="MarsRoverTest.cannotRotateIfNotACompassPoint" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_canRotateLeftFromNorth - 2019.04.04 at 14h 04m 58s.xml">
+      <configuration name="MarsRoverTest.canRotateLeftFromNorth" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2019.04.04 at 13h 34m 48s.xml">
-      <configuration name="MarsRoverTest" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_canRotateLeftFromNorth - 2019.04.04 at 14h 08m 01s.xml">
+      <configuration name="MarsRoverTest.canRotateLeftFromNorth" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2019.04.04 at 13h 36m 12s.xml">
-      <configuration name="MarsRoverTest" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_canRotateLeftFromNorth - 2019.04.04 at 14h 10m 46s.xml">
+      <configuration name="MarsRoverTest.canRotateLeftFromNorth" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -362,7 +362,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -370,8 +370,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.32982457" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982457" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -441,8 +441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MarsRover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="286">
+          <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
           <folding>
             <element signature="e#133#134#0" expanded="true" />
             <element signature="e#165#166#0" expanded="true" />
@@ -462,14 +462,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MarsRoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="331">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
             <element signature="e#709#710#0" expanded="true" />
             <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
           </folding>
         </state>
       </provider>
