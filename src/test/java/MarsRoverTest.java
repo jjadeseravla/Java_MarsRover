@@ -47,12 +47,6 @@ public class MarsRoverTest {
     }
 
     @Test
-    public void cannotRotateIfNotACompassPoint() {
-        marsRover = new MarsRover("asdhbsdfjsadks", 0, 0);
-        assertEquals("null", marsRover.rotateRight());
-    }
-
-    @Test
     public void canRotate180Degrees() {
         marsRover.rotateRight();
         assertEquals("South", marsRover.rotateRight());
